@@ -46,6 +46,7 @@
     <None Include="NugetSpec.nuspec" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="License.txt" />
     <Content Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
