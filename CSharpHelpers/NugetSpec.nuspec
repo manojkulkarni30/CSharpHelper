@@ -6,8 +6,8 @@
     <title>String Helpers</title>
     <authors>Manoj Kulkarni</authors>
     <owners>Manoj Kulkarni</owners>
-    <licenseUrl>https://raw.githubusercontent.com/manojkulkarni30/String-Helpers/master/StringHelpers/LIcense.txt</licenseUrl>
-    <projectUrl>https://github.com/manojkulkarni30/String-Helpers</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/manojkulkarni30/CSharpHelpers/master/CSharpHelpers/License.txt</licenseUrl>
+    <projectUrl>https://github.com/manojkulkarni30/CSharpHelpers</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>This library contains some useful extension methods for string.</description>
     <copyright>Copyright 2015</copyright>
