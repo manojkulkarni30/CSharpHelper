@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>StringHelpers</id>
+    <version>1.0.0</version>
+    <title>String Helpers</title>
+    <authors>Manoj Kulkarni</authors>
+    <owners>Manoj Kulkarni</owners>
+    <licenseUrl>https://raw.githubusercontent.com/manojkulkarni30/String-Helpers/master/StringHelpers/LIcense.txt</licenseUrl>
+    <projectUrl>https://github.com/manojkulkarni30/String-Helpers</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This library contains some useful extension methods for string.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>String helpers</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\StringHelpers.dll" target="lib\" />
+    <file src="readme.txt" target="" />
+  </files>
+</package>
