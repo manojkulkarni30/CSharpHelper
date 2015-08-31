@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>StringHelpers</id>
+    <id>CSharpHelpers</id>
     <version>1.0.0</version>
-    <title>String Helpers</title>
+    <title>CSharp Helpers</title>
     <authors>Manoj Kulkarni</authors>
     <owners>Manoj Kulkarni</owners>
     <licenseUrl>https://raw.githubusercontent.com/manojkulkarni30/CSharpHelpers/master/CSharpHelpers/License.txt</licenseUrl>
@@ -14,7 +14,7 @@
     <tags>String helpers</tags>
   </metadata>
   <files>
-    <file src="bin\Release\StringHelpers.dll" target="lib\" />
+    <file src="bin\Release\CSharpHelpers.dll" target="lib\" />
     <file src="readme.txt" target="" />
   </files>
 </package>
