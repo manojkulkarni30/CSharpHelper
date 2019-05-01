@@ -15,5 +15,8 @@
     <FileVersion>1.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageId>DotNetContext.Helpers</PackageId>
+    <Product>DotNetContext.Helpers</Product>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 </Project>
