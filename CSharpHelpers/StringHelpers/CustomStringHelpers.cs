@@ -1,5 +1,4 @@
-﻿using System;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -12,9 +11,9 @@ namespace CSharpHelpers.StringHelpers
         /// </summary>
         /// <param name="entity">String</param>
         /// <returns></returns>
-        public static string RemoveSpace(this System.String entity)
+        public static string RemoveSpace(this string entity)
         {
-            return ReplaceParticularCharacter(entity, " ", String.Empty);
+            return ReplaceParticularCharacter(entity, " ", string.Empty);
         }
 
         /// <summary>
@@ -22,9 +21,9 @@ namespace CSharpHelpers.StringHelpers
         /// </summary>
         /// <param name="entity">String</param>
         /// <returns></returns>
-        public static string RemoveLastCharacter(this System.String entity)
+        public static string RemoveLastCharacter(this string entity)
         {
-            return String.IsNullOrWhiteSpace(entity) ? String.Empty : entity.Remove((entity.Length - 1), 1);
+            return string.IsNullOrWhiteSpace(entity) ? string.Empty : entity.Remove((entity.Length - 1), 1);
         }
 
 
@@ -33,9 +32,9 @@ namespace CSharpHelpers.StringHelpers
         /// </summary>
         /// <param name="entity">String</param>
         /// <returns></returns>
-        public static string RemoveFirstCharacter(this System.String entity)
+        public static string RemoveFirstCharacter(this string entity)
         {
-            return String.IsNullOrWhiteSpace(entity) ? String.Empty : entity.Remove(0, 1);
+            return string.IsNullOrWhiteSpace(entity) ? string.Empty : entity.Remove(0, 1);
         }
 
 
@@ -46,9 +45,9 @@ namespace CSharpHelpers.StringHelpers
         /// <param name="separator">Separator</param>
         /// <param name="trim"></param>
         /// <returns></returns>
-        public static string ToString(this System.String[] entities, string separator, bool trim = false)
+        public static string ToString(this string[] entities, string separator, bool trim = false)
         {
-            StringBuilder str = new StringBuilder();
+            var str = new StringBuilder();
             foreach (var item in entities)
             {
                 str.Append(trim ? (item.Trim() + separator) : (item + separator));
@@ -64,7 +63,7 @@ namespace CSharpHelpers.StringHelpers
         /// <param name="oldCharacter">Old character</param>
         /// <param name="newCharacter">New Character</param>
         /// <returns></returns>
-        public static string ReplaceParticularCharacter(this System.String entity, string oldCharacter, string newCharacter)
+        public static string ReplaceParticularCharacter(this string entity, string oldCharacter, string newCharacter)
         {
             return entity.Replace(oldCharacter, newCharacter);
         }
@@ -74,12 +73,12 @@ namespace CSharpHelpers.StringHelpers
         /// </summary>
         /// <param name="entity">String</param>
         /// <returns></returns>
-        public static string CreateMd5Hash(this System.String entity)
+        public static string CreateMd5Hash(this string entity)
         {
             var md5Hash = MD5.Create();
             byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(entity));
 
-            StringBuilder sBuilder = new StringBuilder();
+            var sBuilder = new StringBuilder();
             foreach (byte t in data)
             {
                 sBuilder.Append(t.ToString("x2"));
@@ -92,7 +91,7 @@ namespace CSharpHelpers.StringHelpers
         /// </summary>
         /// <param name="entity">String</param>
         /// <returns></returns>
-        public static string ToSeoSlug(this System.String entity)
+        public static string ToSeoSlug(this string entity)
         {
             var str = entity.ReplaceParticularCharacter("&", "and");
             // Remove non word characters
