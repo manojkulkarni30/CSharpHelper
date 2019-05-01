@@ -1,6 +1,8 @@
 # CSharpHelpers
 This library contains some useful extension methods for string.
 
+[![Build Status](https://dev.azure.com/manojkulkarnigithub/CSharpHelpers/_apis/build/status/CSharpHelpers-CI?branchName=master)](https://dev.azure.com/manojkulkarnigithub/CSharpHelpers/_build/latest?definitionId=1&branchName=master)
+
 ### String Helper Methods:
 * **RemoveSpace** : Remove space from string.
 

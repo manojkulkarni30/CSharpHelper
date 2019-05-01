@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
-    <Title>CSharp Helpers</Title>
+    <Title>DotNetContext Helpers</Title>
     <Version>1.0.0</Version>
     <Copyright>Copyright 2019</Copyright>
     <Description>This library contains some useful extension methods for string.</Description>
@@ -18,5 +18,7 @@
     <PackageId>DotNetContext.Helpers</PackageId>
     <Product>DotNetContext.Helpers</Product>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <AssemblyName>DotNetContext.Helpers</AssemblyName>
+    <RootNamespace>DotNetContext.Helpers</RootNamespace>
   </PropertyGroup>
 </Project>
