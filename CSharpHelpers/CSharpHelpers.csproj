@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
-    <Title>CSharpHelpers</Title>
+    <Title>CSharp Helpers</Title>
     <Version>1.0.0</Version>
     <Copyright>Copyright 2019</Copyright>
-    <Description>Contains useful string helpers</Description>
+    <Description>This library contains some useful extension methods for string.</Description>
     <Authors>Manoj Kulkarni</Authors>
     <Company>Manoj Kulkarni</Company>
     <PackageProjectUrl>https://github.com/manojkulkarni30/CSharpHelpers</PackageProjectUrl>
